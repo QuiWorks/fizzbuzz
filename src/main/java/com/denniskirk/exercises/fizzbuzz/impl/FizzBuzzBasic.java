@@ -9,6 +9,6 @@ package com.denniskirk.exercises.fizzbuzz.impl;
  * For multiples of five print "Buzz"
  * For multiple of both three and five print "FizzBuzz"
  */
-public class FizzBuzzBasic extends FizzBuzzImpl {
+public class FizzBuzzBasic extends AbstractFizzBuzz {
 
 }

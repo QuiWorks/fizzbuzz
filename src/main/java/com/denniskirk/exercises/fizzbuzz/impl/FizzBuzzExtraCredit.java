@@ -11,6 +11,6 @@ package com.denniskirk.exercises.fizzbuzz.impl;
  *
  * please use the primitive int type
  */
-public class FizzBuzzExtraCredit extends FizzBuzzImpl {
+public class FizzBuzzExtraCredit extends AbstractFizzBuzz {
 
 }
