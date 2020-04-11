@@ -7,7 +7,7 @@ import com.denniskirk.exercises.fizzbuzz.FizzBuzz;
  */
 public abstract class AbstractFizzBuzz implements FizzBuzz {
     @Override
-    public void run() {
+    public void doFizzBuzz() {
         //TODO implement the FizzBuzz exercise
     }
 }

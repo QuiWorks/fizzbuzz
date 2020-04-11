@@ -8,18 +8,20 @@ import java.io.PrintStream;
 
 import static org.junit.Assert.assertEquals;
 
-abstract class FizzBuzzTest {
+abstract class FizzBuzzTest
+{
 
-    void run() throws IOException {
-        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-        System.setOut(new PrintStream(outContent));
-        getTestClass().run();
-        assertEquals(getCorrectOutput(), outContent.toString());
-        outContent.flush();
-        System.setOut(System.out);
-    }
+	void run() throws IOException
+	{
+		ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+		System.setOut(new PrintStream(outContent));
+		getTestClass().doFizzBuzz();
+		assertEquals(getCorrectOutput(), outContent.toString());
+		outContent.flush();
+		System.setOut(System.out);
+	}
 
-    abstract String getCorrectOutput();
+	abstract String getCorrectOutput();
 
-    abstract FizzBuzz getTestClass();
+	abstract FizzBuzz getTestClass();
 }
