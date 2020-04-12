@@ -11,5 +11,18 @@ package com.denniskirk.exercises.fizzbuzz.impl;
  */
 public class FizzBuzzBasic extends AbstractFizzBuzz
 {
+	@Override
+	boolean isBuzz(int x) {
+		return x % 5 == 0;
+	}
 
+	@Override
+	boolean isFizz(int x) {
+		return x % 3 == 0;
+	}
+
+	@Override
+	boolean isFizzBuzz(int x) {
+		return isFizz(x) && isBuzz(x);
+	}
 }
