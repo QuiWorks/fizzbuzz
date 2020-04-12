@@ -1,12 +1,12 @@
 package com.denniskirk.exercises.fizzbuzz.impl;
 
-import com.denniskirk.exercises.fizzbuzz.FizzBuzz;
+import static org.junit.Assert.assertEquals;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
 
-import static org.junit.Assert.assertEquals;
+import com.denniskirk.exercises.fizzbuzz.FizzBuzz;
 
 abstract class FizzBuzzTest
 {

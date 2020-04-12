@@ -23,6 +23,6 @@ public interface FizzBuzz {
 	 * Complete this exercise by implementing this method.
 	 * Write your code in the {@link AbstractFizzBuzz} class.
 	 */
-    void doFizzBuzz();
+	void doFizzBuzz();
 
 }

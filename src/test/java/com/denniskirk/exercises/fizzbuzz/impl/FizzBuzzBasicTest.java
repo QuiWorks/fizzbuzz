@@ -1,8 +1,8 @@
 package com.denniskirk.exercises.fizzbuzz.impl;
 
-import com.denniskirk.exercises.fizzbuzz.FizzBuzz;
-
 import org.junit.Test;
+
+import com.denniskirk.exercises.fizzbuzz.FizzBuzz;
 
 public class FizzBuzzBasicTest extends FizzBuzzTest
 {
